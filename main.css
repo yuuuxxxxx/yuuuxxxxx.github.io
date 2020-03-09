@@ -241,6 +241,10 @@ html, body {
   display: none;
 }
 
+.h100 {
+  height: 100vh;
+}
+
 @media screen and (max-width: 480px) {
   .BorderGreen {
     border-bottom: 3px solid #00aa9c;
