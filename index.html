@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
-<body class="PageWrapper" data-spy="scroll" data-target="#navbar">
+<body class="PageWrapper" data-spy="scroll" data-target="#Navbar" data-offset="100">
     <div class="Hamburger"></div>
         <div id="Menu" class="HamburgerWrapper hidden">
-            <ul class="HamburgerWrapper__ul mb-0">
+            <ul class="HamburgerWrapper__ul mb-0 nav nav-pills">
                 <li class="HamburgerWrapper__li">
                     <a class="HamburgerWrapper__a" href="#home">HOME</a>
                 </li>
@@ -32,8 +32,8 @@
     <header id="Header" class="HeaderWrapper">
         <div class="HeaderWrapper__position">
             <div></div>
-            <nav class="NavWrapper">
-                <ul class="NavWrapper__ul">
+            <nav class="NavWrapper" id="Navbar">
+                <ul class="NavWrapper__ul nav nav-pills">
                     <li class="NavWrapper__li">
                         <a class="NavWrapper__a" href="#home">HOME</a>
                     </li> 
@@ -72,7 +72,7 @@
                 </div> 
                 <div class="col-sm-12 row"> 
                     <div class="col-sm-5 col-xs-12">
-                        <img class="container" src="icon-circle.jpg"> 
+                        <img class="container" src="icon-circle.png"> 
                     </div> 
                     <div class="col-sm-7 col-xs-12 text-center">
                         <p>小林優香(こばやし ゆうか)<br>
@@ -97,7 +97,7 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="SkillCard">
                             <img src="html5.svg" class="SkillIcon">
-                            <h3>HTML</h3>
+                            <h3 class="mt-2">HTML</h3>
                             <p>経験年数：１年半</p>
                             <p>基本的なことは一通りできます。</p>
                             </div>
@@ -105,7 +105,7 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="SkillCard">
                             <img src="css3.svg" class="SkillIcon">
-                            <h3>CSS</h3>
+                            <h3 class="mt-2">CSS</h3>
                             <p>経験年数：１年半</p>
                             <p>基本的なことは一通りできます。<br>
                             BEM記法、Sassでのコーディングもできます。</p>
@@ -114,7 +114,7 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="SkillCard">
                             <img src="bootstrap.svg" class="SkillIcon">
-                            <h3>Bootstrap</h3>
+                            <h3 class="mt-2">Bootstrap</h3>
                             <p>経験年数：１年半</p>
                             <p>グリッドシステムや便利なCSSを用いて<br>
                             コーディングを行っています。</p>
@@ -124,7 +124,7 @@
                             <div class="SkillCard">
                             <img src="javascript.svg" class="SkillIcon">
                             <img src="jquery.svg" class="JqueryIcon">
-                            <h3>JavaScript & jQuery</h3>
+                            <h3 class="mt-2">JavaScript & jQuery</h3>
                             <p>経験年数：１年</p>
                             <p>基本的なdom操作ができます。</p>
                             </div>
@@ -133,29 +133,29 @@
                 </div> 
             </div> 
         </section> 
-        <section id="works"> 
+        <section id="works" class="BgGray"> 
             <div class="ContentWrapper pt-4"> 
                 <div class="text-center mb-4 pt-5 w-100"> 
                     <div class="text-center font-s30 BorderGreen">
                         <img src="work-icon.svg" class="IconResize">WORKS
                     </div>
-                    <div class="col-sm-12 row"> 
-                        <div class="col-sm-4 col-xs-12">
-                            <p>WORK1</p> 
-                        </div> 
-                        <div class="col-sm-4 col-xs-12">
-                            <p>WORK2
-                            </p>
+                    <div class="col-sm-12 row mt-4"> 
+                        <div class="col-sm-6 col-xs-12">
+                            <img class="WorkImage container" src="portfolio.png">
+                            <p>自分自身のポートフォリオです。<br>
+                            HTML/CSS/BootStrap/jQuery使用</p> 
                         </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <p>WORK3
+                        <div class="col-sm-6 col-xs-12">
+                            <img class="WorkImage container" src="holmes.png">
+                            <p>株式会社Holmes様でのフロントエンドの開発
+                                HTML/CSS/Sass/BootStrap/JavaScript/jQuery/Thymeleaf使用
                             </p>
                         </div>
                     </div> 
                 </div> 
             </div> 
         </section> 
-        <section id="contact" class="h100"> 
+        <section id="contact"> 
             <div class="ContentWrapper pt-4"> 
                 <div class="text-center pb-4 pt-5 w-100"> 
                     <div class="text-center font-s30 BorderGreen">
