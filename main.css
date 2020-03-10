@@ -256,14 +256,21 @@ html, body {
   height: 245px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
+  .BorderGreen {
+    border-bottom: 3px solid #00aa9c;
+    margin: 0 auto;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .MailWrapper {
+    width: 60%;
+  }
   .BorderGreen {
     border-bottom: 3px solid #00aa9c;
     margin: 0 auto;
     width: 50%;
-  }
-  .MailWrapper {
-    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
