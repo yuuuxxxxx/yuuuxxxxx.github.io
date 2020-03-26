@@ -267,6 +267,8 @@ html, body {
   .MailWrapper {
     width: 60%;
   }
+  .TopImage {
+    background-position: 25%;
 }
 
 .pb65 {
